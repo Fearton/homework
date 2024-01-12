@@ -51,26 +51,26 @@
 //     }
 // }
 
-// System.Console.WriteLine("Enter your number:");
-// int yourNumber = Convert.ToInt32(Console.ReadLine());
+// int yourNumber = new Random().Next(10, 99 + 1);
+// System.Console.WriteLine("number:" + yourNumber);
 // highNumber(yourNumber);
 
 //fourth task
 
-void numberDivision(int number) {
-    if (number < 1) {
-        System.Console.WriteLine("Wrong number");
-    } else {
-        for(int i = 0; i < Convert.ToString(number).Length; i++) {
-            if (i == Convert.ToString(number).Length - 1) {
-                System.Console.WriteLine(Convert.ToString(number)[i]);
-            } else {
-                System.Console.Write(Convert.ToString(number)[i] + ",");
-            }
-        }
-    }
-}
+// void numberDivision(int number) {
+//     if (number < 1) {
+//         System.Console.WriteLine("Wrong number");
+//     } else {
+//         for(int i = 0; i < Convert.ToString(number).Length; i++) {
+//             if (i == Convert.ToString(number).Length - 1) {
+//                 System.Console.WriteLine(Convert.ToString(number)[i]);
+//             } else {
+//                 System.Console.Write(Convert.ToString(number)[i] + ",");
+//             }
+//         }
+//     }
+// }
 
-System.Console.WriteLine("Enter your number:");
-int yourNumber = Convert.ToInt32(Console.ReadLine());
-numberDivision(yourNumber);
+// System.Console.WriteLine("Enter your number:");
+// int yourNumber = Convert.ToInt32(Console.ReadLine());
+// numberDivision(yourNumber);
