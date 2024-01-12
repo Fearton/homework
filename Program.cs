@@ -39,15 +39,10 @@
 // void highNumber(int number) {
 //     int ed = number % 10;
 //     int dec = (number - ed) / 10;
-
-//     if (number >= 10 && number <= 99) {
-//         if (ed > dec) {
-//             System.Console.WriteLine("highest number is: " + ed);
-//         } else {
-//             System.Console.WriteLine("highest number is: " + dec);
-//         } 
+//     if (ed > dec) {
+//         System.Console.WriteLine("highest number is: " + ed);
 //     } else {
-//         System.Console.WriteLine("Wrong number");
+//         System.Console.WriteLine("highest number is: " + dec);
 //     }
 // }
 
